@@ -1,0 +1,39 @@
+.insetimg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.insetimg-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.insetimg-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.insetimg-image {
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.insetimg-frame {
+  width: 100%;
+}
+
+.insetimg-frame.loaded {
+  min-height: 400px;
+}
+
+.insetimg-frame img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "insetimg",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mrchimp/insetimg",
+  "authors": [
+    "mrchimp <chimpytk@gmail.com>"
+  ],
+  "description": "Reveal fixed background images.",
+  "main": "insetimg.jquery.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*"
+  }
+}
