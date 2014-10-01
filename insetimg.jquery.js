@@ -53,6 +53,7 @@
         .appendTo(wrap_inner);
 
       $(this).addClass('loaded');
+
       img.remove();
 
       x++;
@@ -62,8 +63,10 @@
 
     $(window).on('scroll', doScroll).on('resize', doResize);
     
-    doResize();
-    doScroll();
+    $(window).load(function () {
+      doScroll();
+      doResize();
+    });
 
     return this;
 
