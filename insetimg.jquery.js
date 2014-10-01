@@ -38,10 +38,12 @@
     x = 0;
 
     $(this).each(function () {
+      var img = $(this).children('img').first();
+
       var inner = $('<div />')
         .addClass('insetimg-image')
         .css({
-          'background-image': 'url(' + $(this).find('img').attr('src') +')'
+          'background-image': 'url(' + img.attr('src') +')'
         });
 
       $('<div />')
@@ -50,7 +52,8 @@
         .html(inner)
         .appendTo(wrap_inner);
 
-      $(this).addClass('loaded').find('img').remove();
+      $(this).addClass('loaded');
+      img.remove();
 
       x++;
     });

@@ -18,3 +18,8 @@ Javascript Like this:
 
     $('.insetimg-frame').insetimg();
 
+
+
+# License #
+
+MIT License
