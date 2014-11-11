@@ -43,7 +43,7 @@
       var inner = $('<div />')
         .addClass('insetimg-image')
         .css({
-          'background-image': 'url(' + img.attr('src') +')'
+          'background-image': 'url("' + img.attr('src') +'")'
         });
 
       $('<div />')
